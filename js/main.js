@@ -125,6 +125,7 @@
 // };
 
 // // Can't use a fat arrow function in this case
+<<<<<<< HEAD
 // console.log(profile.getName())
 
 
@@ -154,3 +155,6 @@
 // setTimeout(() => console.log('Hello'), 3000)
 
 // NOTE: fat arrow functions also help define the "this" keyword. With regular functions, "this" refers to the element that triggered the function to run. But with fat arrow syntax, "this" will always refer to the context in which it was initially defined. No need for ".bind" or other ES5 workarounds.
+=======
+// console.log(profile.getName())
+>>>>>>> 4999f90901b6b9d82ed132cc245699afd9c30eed
